@@ -18,4 +18,5 @@ app.post('/usuarios', async (req,res) => {
 
 app.listen(9000, async () => {
     const data = new Date();
+    console.log(" Servidor node iniciado em:" + data)
 })
